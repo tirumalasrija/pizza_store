@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Moos Angels</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+</head>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<body>
+<div class="topheader">
+<div class="container">
+<div class="row">
+<div class="col-md-4 call">
+<span class="topleft">Call us : </span><span class="topright">+1 990021212121</span>
+</div>
+<div class="col-md-4 email">
+<span class="topleft"> Email : </span><span class="topright">Jen.crouch@moosangels.com </span>
+</div>
+<div class="col-md-4">
+<!--<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-google-plus" aria-hidden="true"></i>
+<i class="fa fa-youtube" aria-hidden="true"></i>
+<i class="fa fa-pinterest-p" aria-hidden="true"></i>-->
+<!--<a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
+<a href="javascript:void(0);"><i class="fa fa-pencil-square" aria-hidden="true"></i>Register</a>
+<i class="fa fa-shopping-cart pull-right" aria-hidden="true"></i><span class="count">0</span>-->
+</div>
+</div>
+</div>
+</div>
+<div class="topheader">
+<div class="container">
+<div class="row">
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"/></a>
+    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right" >
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+       <!-- <span class="caret"></span>--></a>
+       <!-- <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>-->
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Petmaid services <span class="caret"></span></a>
+	  <ul class="dropdown-menu">
+          <li><a href="#">Residencial Pet Maid</a></li>
+          <li><a href="#">Commercial Pet Maid</a></li>
+		  </ul>
+	  </li>
+      <li><a href="pet-taxi.html">pet taxi</a></li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pet Services <span class="caret"></span></a>
+	   <ul class="dropdown-menu">
+          <li><a href="#">Pet Medi Care</a></li>
+          <li><a href="#"> Pet Feeding / Meal Preparation</a></li>
+          <li><a href="#"> Pet Sitting</a></li>
+          <li><a href="#"> Pet Walking / Fitness</a></li>
+          <li><a href="#"> Cleaning Litter Boxes </a></li>
+		  </ul>
+	  </li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+	</div>
+  </div>
+</nav>
+</div>
+</div>
+</div>
+<div class="full_width header_top">
+<div class="container">
+<ul class="breadcrumbs">
+<li><a href="index.html">Home / </a></li>
+<li>&nbsp;Shop</li>
+</ul>
+</div>
+</div>
+<div class="full_width bg_wht mt-20">
+<div class="container">
+<div class="full_width">
+<aside class="col-md-3">
+<div class="row">
+<div class="bg_wht pos_rel">
+<input type="text" name="search" placeholder="Search.." class="search">
+<a href="javascript:void(0);" class="pos_abs"><i class="fa fa-search"></i></a>
+<div class="mt-30 side">
+<h3>CATEGORIES</h3>
+<ul>
+<li data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><a href="javascript:void(0);">Accessories</a>
+<ul id="collapseExample" class="collapse">
+<li>Dogs</li>
+<li>Cats</li>
+<li>Parrots</li>
+<li>Animals</li>
+</ul>
+</li>
+<li data-toggle="collapse" data-target="#examplecollapse" aria-expanded="false" aria-controls="examplecollapse"><a href="javascript:void(0);">Food</a>
+<ul class="collapse" id="examplecollapse">
+<li><a href="javascript:void(0);">Organic</a></li>
+<li><a href="javascript:void(0);">Protein</a></li>
+<li><a href="javascript:void(0);">Pedigree</a></li>
+<li><a href="javascript:void(0);">Camel</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);">Services</a></li>
+<li><a href="javascript:void(0);">Pets</a></li>
+</ul>
+</div>
+
+<!--recent products-->
+<div class="mt-30 side">
+<h3>RECENT PRODUCTS</h3>
+<ul>
+<li data-toggle="collapse" data-target="#collapseExampleone" aria-expanded="false" aria-controls="collapseExampleone"><a href="javascript:void(0);">Accessories</a>
+<ul id="collapseExampleone" class="collapse">
+<li>Dogs</li>
+<li>Cats</li>
+<li>Parrots</li>
+<li>Animals</li>
+</ul>
+</li>
+<li data-toggle="collapse" data-target="#examplecollapseone" aria-expanded="false" aria-controls="examplecollapseone"><a href="javascript:void(0);">Food</a>
+<ul class="collapse" id="examplecollapseone">
+<li><a href="javascript:void(0);">Organic</a></li>
+<li><a href="javascript:void(0);">Protein</a></li>
+<li><a href="javascript:void(0);">Pedigree</a></li>
+<li><a href="javascript:void(0);">Camel</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);">Services</a></li>
+<li><a href="javascript:void(0);">Pets</a></li>
+</ul>
+</div>
+
+<div class="price side">
+<h3>Price</h3>
+   <p class="full_width">
+  <label for="amount">Price range: </label>
+   <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+</p>
+ 
+<div id="slider-range" class="full_width mtb-20"></div>
+
+
+</div>
+<!--best products-->
+<div class="mt-30 full_width">
+<h3 class="mb-25">RECENT PRODUCTS</h3>
+<div class="aside_prduct full_width">
+<div class="full_width mb-10">
+<div class="sale">sale</div>
+<figure>
+<a href="#">
+<img src="images/pet/one.jpg" alt="pet" width="50px"/>
+</a>
+</figure>
+<div class="caption">
+<span class="cap_price">$80</span>
+<div class="name">
+<a href="#">
+Lorem ipsum dolor sit amet
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aside_prduct full_width">
+<div class="full_width mb-10">
+<div class="sale">sale</div>
+<figure>
+<a href="#">
+<img src="images/pet/two.jpg" alt="pet" width="50px"/>
+</a>
+</figure>
+<div class="caption">
+<span class="cap_price">$80</span>
+<div class="name">
+<a href="#">
+Lorem ipsum dolor sit amet
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aside_prduct full_width">
+<div class="full_width mb-10">
+<div class="sale">sale</div>
+<figure>
+<a href="#">
+<img src="images/pet/four.jpg" alt="pet" width="50px"/>
+</a>
+</figure>
+<div class="caption">
+<span class="cap_price">$80</span>
+<div class="name">
+<a href="#">
+Lorem ipsum dolor sit amet
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aside_prduct full_width">
+<div class="full_width mb-10">
+<div class="sale">sale</div>
+<figure>
+<a href="#">
+<img src="images/pet/four.jpg" alt="pet" width="50px"/>
+</a>
+</figure>
+<div class="caption">
+<span class="cap_price">$80</span>
+<div class="name">
+<a href="#">
+Lorem ipsum dolor sit amet
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aside_prduct full_width">
+<div class="full_width mb-10">
+<div class="sale">sale</div>
+<figure>
+<a href="#">
+<img src="images/pet/four.jpg" alt="pet" width="50px"/>
+</a>
+</figure>
+<div class="caption">
+<span class="cap_price">$80</span>
+<div class="name">
+<a href="#">
+Lorem ipsum dolor sit amet
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</aside>
+<section class="col-md-9">
+<div class="row">
+<div class="full_width">
+<ul>
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/one.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" ><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/two.jpg" alt="moosangel"/>
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/nine.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/one.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/one.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/nine.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/ten.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/ten.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+
+<li class="col-md-4 list_item">
+<a href="javascript:void(0);">
+<div class="prdct_des">
+<img src="images/pet/one.jpg" alt="moosangel"/>
+<!--<div class="btn_group">
+<button class="wish" ><i class="fa fa-heart"></i></button>
+<button class="exchange" data-toggle="tooltip" type="button" data-placement="top" title="Add to Wishlist"><i class="fa fa-exchange"></i></button>
+<button class="cart"><i class="fa fa-shopping-cart"></i></button>
+</div>-->
+<div class="descrptn">
+<h4>Accessories</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+<p class="price">$20.00</p>
+<button class="addtocart">ADD TO CART</button>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<h3 class="colorwht">Aboutus</h3>
+<p>At Moos angels,we take pride in providing the best possible care for your beloved companion.</p> 
+<p>Moos angels provides aarray of home care services for your pet,while keeping them in comfort and familiarity of their own home.</p> 
+<!--<p>Our primary services are Listed below</p> -->
+<p>We will do our best to accomodate your pets needs & ensure that your pet gets all attention they deserve.</p>
+</div>
+<div class="col-md-4">
+<h3 class="colorwht">Contact Details</h3>
+<ul>
+<!--<!--<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i>Jen.crouch@moosangels.com </a></li>-->-->
+<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>Jen.crouch@moosangels.com </a></li>
+<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+1 123 456 0978</a></li>
+<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>47526 Clipper Street<br>PO BOX 700080 Plymouth, MI 48170</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<h3 class="colorwht">Useful links</h3>
+<ul>
+<li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about-us.html">About</a></li> 
+      <!--<li><a href="#">petmaid services</a></li>-->
+      <li><a href="pet-taxi.html">pet taxi</a></li>
+      <!--<li><a href="#">pet services</a></li>-->
+      <li><a href="contact-us.html">Contact Us</a></li>
+	  </ul>
+</div>
+</div>
+</div>
+</footer>
+</body>
+
+ <script>
+  $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+  </script>
+    <script type="text/javascript" src="slick/slick/slick.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Moos Angels</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+  <script>
+  $(document).ready(function(){
+$('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+});
+</script>
+<script>
+
+</script>
+</head>
+<body>
+<div class="topheader">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+	<ul class="list-inline phnlist">
+		<li><strong>Call us :</strong> (248) 704-4538</li>
+		<li><strong>Email :</strong> Jen.crouch@moosangels.com </li>
+	</ul>
+</div>
+<div class="col-md-4 text-right logreg">
+<!--<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-google-plus" aria-hidden="true"></i>
+<i class="fa fa-youtube" aria-hidden="true"></i>
+<i class="fa fa-pinterest-p" aria-hidden="true"></i>-->
+<!--<a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
+<a href="javascript:void(0);"><i class="fa fa-pencil-square" aria-hidden="true"></i>Register</a>
+<i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="count">0</span>-->
+</div>
+</div>
+</div>
+</div>
+<div class="topheader">
+<div class="container">
+<div class="row">
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"/></a>
+    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right" >
+      <li class="active"><a href="index.html">Home</a></li>
+	  <li class="active"><a href="about-us.html">About</a></li>
+     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Petmaid services 
+	 <span class="caret"></span></a>
+	  <ul class="dropdown-menu">
+          <li><a href="residential-pet-maid.html">Residencial Pet Maid</a></li>
+          <li><a href="commercial-pet-maid.html">Commercial Pet Maid</a></li>
+		  </ul>
+	  </li>
+      <li><a href="pet-taxi.html">Pet Taxi</a></li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pet Services <span class="caret"></span></a>
+	   <ul class="dropdown-menu">
+          <li><a href="pet-medicare.html">Pet Medi Care</a></li>
+          <li><a href="pet-feeding.html"> Pet Feeding / Meal Preparation</a></li>
+          <li><a href="pet-sitting.html"> Pet Sitting</a></li>
+          <li><a href="pet-walking.html"> Pet Walking / Fitness</a></li>
+          <li><a href="cleaning-litter-boxes.html"> Cleaning Litter Boxes </a></li>
+		  </ul>
+	  </li>
+      <li><a href="contact-us.html">contact us</a></li>
+    </ul>
+	</div>
+  </div>
+</nav>
+</div>
+</div>
+</div>
+<!--carousel start here-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="images/slider.jpg" alt="Chania" width="100%">
+        <div class="carousel-caption">
+          <h3>Happy Pets</h3>
+          <p>we take pride in providing the best possible care for your beloved companions as well as your home</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/sliderone.jpg" alt="Chania" width="100%">
+        <div class="carousel-caption">
+          <h3>Health &amp; Wellness</h3>
+          <p>Each pet has unique health needs. Find out how to take the best care of your best friend.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/taxi.jpg" alt="Flower" width="100%">
+        <div class="carousel-caption">
+          <h3>Pet Taxi</h3>
+          <p> Dog, Cat and Pet Transportation Services</p>
+        </div>
+      </div>
+
+      <!--<div class="item">
+        <img src="images/pet-type/pet_food1.png" alt="Flower" width="100%">
+        <div class="carousel-caption">
+          <h3>Food &amp; Nutrition</h3>
+          <p>Learn about the different types of food available that can support your pet's nutritional needs.</p>
+        </div>
+      </div>-->
+
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img src="images/previous.png" /></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img src="images/next.png" /></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--carousel end here-->
+  
+  <div class="full_width">
+  <div class="col-md-12">
+
+  <div class="col-md-7" style="margin-top:10px;">
+  <div class="row">
+<div id="Carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/cat.jpg" alt="Chania" width="100%">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <!--<div class="item">
+        <img src="images/cat.jpg" alt="Chania" width="100%">
+        <div class="carousel-caption">
+    
+        </div>
+      </div> --> 
+    </div>
+
+    <!-- Left and right controls -->
+    <!--<a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img src="images/previous.png" /></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img src="images/next.png" /></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+  </div>
+  </div>
+  </div>
+  
+<div class="col-md-5 col-sm-12 col-xs-12 mt-10">
+<div class="row">
+<ul>
+<li class="list col-md-6 col-sm-6 col-xs-6">
+<img src="images/thumbnail.jpg" alt="moos angels" class="img">
+<div class="po">
+<em>Make your cats happy</em><h4 class="pets">Cats</h4>
+<div class="shoop">
+<a href="javascript:void(0);">shop now<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+</div>
+</div>
+</li>
+<li class="list col-md-6 col-sm-6 col-xs-6">
+<img src="images/thumbnailtwo.jpg" alt="moos angels" class="img"/>
+<div class="po"><em>Make your cats happy</em><h4 class="pets">Cats</h4>
+<div class="shoop">
+<a href="javascript:void(0);">shop now<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+</div>
+</div>
+</li>
+
+<li class="list col-md-6 col-sm-6 col-xs-6">
+<img src="images/thumbnailthree.jpg" alt="moos angels" class="img"/>
+<div class="po"><em>satisfy your pet's palate</em><h4 class="pets">Bowl</h4>
+<div class="shoop">
+<a href="javascript:void(0);">shop now<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+</div>
+</div>
+</li>
+
+<li class="list col-md-6 col-sm-6 col-xs-6">
+<img src="images/thumbnailone.jpg" alt="moos angels" class="img"/>
+<div class="po"><em>satisfy your pet's palate</em><h4 class="pets">Bowl</h4>
+<div class="shoop">
+<a href="javascript:void(0);">shop now<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+</div>
+</div>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<!--products carousel start here-->
+
+  <!--<div class="container">
+ <h3>Products</h3>
+ <div class="products responsive">
+<div class="product">
+<a href="addcart.html"><img src="images/products/one.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$20</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/two.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$45</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/three.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$30</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/four.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$55</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/five.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$55</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/six.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$75</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/five.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$35</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/six.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$28</a>
+</div>
+</div>
+</div>
+  </div>
+  <!--products carousel end here-->
+  <!--products carousel start here-->
+  <!--<div class="container">
+  <br>
+  <br>
+ <h3>Products</h3>
+ <div class="prodcts responsive">
+<div class="product">
+<a href="addcart.html"><img src="images/products/one.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$28</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/two.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$35</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/three.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$32</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/four.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$80</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/five.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$65</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/six.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$40</a>
+</div>
+</div>
+<div class="product">
+<a href="addcart.html"><img src="images/products/five.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$80</a>
+</div>
+</div>
+<div class="product"><a href="javascript:void(0);"><img src="images/products/six.jpg" alt="moos angels" class="img"/></a>
+<a href="javascript:void(0);" class="sale">sale</a>
+<div class="heading">
+<h3>Loreum ipsum</h3>
+<a href="javascript:void(0);" class="price">$30</a>
+</div>
+</div>
+</div>  
+  </div><!--products carousel end here-->
+<div class="latest_news">
+<div class="container">
+<h3>You may like</h3>
+<div class="row">
+<div class="news col-md-3 col-sm-6">
+<img src="images/accessories/eleven.jpg" alt="moosangels">
+<p>Looking for a bed for your pet? Check out cooling pet bed by moosangels
+offers high quality products at great prices.</p>
+</div>
+
+<div class="news col-md-3 col-sm-6">
+<img src="images/accessories/twelve.jpg" alt="moosangels">
+<p>Looking for a bed for your pet? Check out cooling pet bed by moosangels
+offers Top Paw Dog Bowl</p>
+</div>
+
+<div class="news col-md-3 col-sm-6">
+<img src="images/accessories/16.jpg" alt="moosangels">
+<p>Looking for a bed for your pet? Check out cooling pet bed by moosangels offers Canine Cushion Orthopedic Fleece Dog Bed</p>
+</div>
+
+<div class="news col-md-3 col-sm-6">
+<img src="images/accessories/17.jpg" alt="moosangels">
+<p>Looking for a bed for your pet? Check out cooling pet bed by moosangels
+offers high quality products at great prices.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="appntmnt">
+<div class="container">
+<p class="bold_headng">Intersting  our works and services ?</p>
+<p class="colorwht">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+dummy text ever since the 1500s, when an unknown printer took a galey of type and scrambled it to make a type .</p>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="row">
+
+<div class="col-md-4">
+<h3 class="colorwht">Useful links</h3>
+<ul>
+<li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about-us.html">About</a></li>
+      <!--<li><a href="#">petmaid services</a></li>-->
+      <li><a href="pet-taxi.html">pet taxi</a></li>
+      <!--<li><a href="#">pet services</a></li>-->
+      <li><a href="contact-us.html">Contact Us</a></li>
+	  </ul>
+</div>
+
+<div class="col-md-4">
+<h3 class="colorwht">Contact Details</h3>
+<ul>
+<!--<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i>Jen.crouch@moosangels.com </a></li>-->
+<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>(248) 704-4538</a></li>
+<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>47526 Clipper Street,<br> PO BOX 700080 Plymouth MI 48170</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<h3 class="colorwht">About us</h3>
+<p>At Moos angels,we take pride in providing the best possible care for your beloved companion.</p> 
+<p>Moos angels provides aarray of home care services for your pet,while keeping them in comfort and familiarity of their own home.</p> 
+<!--<p>Our primary services are Listed below</p> -->
+<p>We will do our best to accomodate your pets needs & ensure that your pet gets all attention they deserve.</p>
+</div>
+
+</div>
+</div>
+</footer>
+</body>
+</html>
